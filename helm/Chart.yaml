@@ -1,0 +1,18 @@
+apiVersion: v2
+name: akri
+description: A Helm chart for Akri
+icon: https://raw.githubusercontent.com/project-akri/akri-docs/main/art/icon/akri-icon-light.svg
+home: https://github.com/project-akri/akri
+sources:
+  - https://github.com/project-akri/akri
+  - https://docs.akri.sh/
+dependencies:
+  - name: akri
+    repository: https://project-akri.github.io/akri/
+    version: 0.13.8
+
+type: application
+
+version: 0.13.8
+
+appVersion: 0.13.8
