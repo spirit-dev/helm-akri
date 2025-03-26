@@ -7,12 +7,13 @@ sources:
   - https://github.com/project-akri/akri
   - https://docs.akri.sh/
 dependencies:
-  - name: akri
+  - name: akri-dev
     repository: https://project-akri.github.io/akri/
-    version: 0.13.8
+    version: 0.13.10
+    alias: akri
 
 type: application
 
-version: 0.13.8
+version: 0.13.10
 
-appVersion: 0.13.8
+appVersion: 0.13.10
