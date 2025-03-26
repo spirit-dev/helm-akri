@@ -2,5 +2,5 @@ dependencies:
 - name: akri-dev
   repository: https://project-akri.github.io/akri/
   version: 0.13.10
-digest: sha256:b7c398d6a55175ef9ebe726ebd6728c86870b3c329300ba6f5e964a1bfec246d
-generated: "2025-03-26T10:32:09.550688909+01:00"
+digest: sha256:035ffb716eefcd9553b73dc3cd9e01fdebab55dbd01b5ad4ca1e8110ec16ad0b
+generated: "2025-03-26T10:35:42.165442942+01:00"
