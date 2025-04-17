@@ -22,4 +22,4 @@
 *.tmproj
 .vscode/
 
-charts/akri-*/akri
+charts/akri-dev*/akri-dev

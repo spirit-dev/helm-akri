@@ -1,0 +1,19 @@
+{{- range $k, $config := .Values.akriContext.udev.configuration.discoveryDetails }}
+{{- if $config.enabled }}
+---
+apiVersion: akri.sh/v0
+kind: Configuration
+metadata:
+  name: akri-udev-{{ $config.name }}
+spec:
+  discoveryHandler:
+    name: udev
+    discoveryDetails: |+
+      groupRecursive: {{ $config.groupRecursive }}
+      udevRules:
+      {{- required "Please set at least one udev rule with `--set akriContext.udev.configuration.discoveryDetails.udevRules[0]==\"<udev rule>\"' to specify what you want discovered. See the udev Configuration document at https://docs.akri.sh/discovery-handlers/udev for more information." $config.udevRules | toYaml | nindent 6 }}
+      permissions: {{ $config.permissions | default "rwm" }}
+  brokerProperties: {}
+  capacity: {{ $config.capacity | default 1 }}
+{{- end }}
+{{- end }}
