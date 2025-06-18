@@ -1,3 +1,8 @@
+akriContext:
+  udev:
+    configuration:
+      discoveryDetails: {}
+
 akri:
   # Default values for akri.
   # This is a YAML-formatted file.
