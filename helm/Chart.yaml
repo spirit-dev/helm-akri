@@ -14,6 +14,8 @@ dependencies:
 
 type: application
 
+# renovate: datasource=github-releases depName=project-akri/akri
 version: 0.13.16
 
-appVersion: 0.13.16
+# renovate: datasource=github-releases depName=project-akri/akri
+appVersion: "0.13.16"
