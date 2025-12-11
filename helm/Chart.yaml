@@ -9,7 +9,7 @@ sources:
 dependencies:
   - name: akri-dev
     repository: https://project-akri.github.io/akri/
-    version: 0.13.16
+    version: 0.13.18
     alias: akri
 
 type: application
