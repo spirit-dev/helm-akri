@@ -1,6 +1,6 @@
-{
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "local>templates/renovate-config//renovate/helm"
-  ]
-}
+// {
+//   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+//   "extends": [
+//     "local>templates/renovate-config//renovate/helm"
+//   ]
+// }
